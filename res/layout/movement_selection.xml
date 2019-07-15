@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/sel_home_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="52dp"
+            android:background="@drawable/dark_gray_background_scroll"
+            android:columnWidth="120dp"
+            android:numColumns="2"
+            android:stretchMode="columnWidth" >
+        </GridView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sel_ad_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sel_home_layout"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom" >
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/selAdView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/selAdId" />
+    </LinearLayout>
+
+</RelativeLayout>

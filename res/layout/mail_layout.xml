@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mailView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editMailBody"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_textbox"
+        android:focusable="true"
+        android:gravity="top"
+        android:hint="@string/mail_hint"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="21sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/sendMailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="21dp"
+            android:background="@drawable/green_shaded_button_background"
+            android:textStyle="bold"
+            android:text="@string/send_button"
+            android:textColor="@color/xtra_dark_blue"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+</LinearLayout>
