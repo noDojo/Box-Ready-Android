@@ -1,4 +1,4 @@
-# Box Ready
+# Box Ready - Android Application for Senior Project
 
 ![Movement Grid](https://github.com/noDojo/Box-Ready-Android/blob/master/res/drawable-hdpi/movement_grid.png?raw=true)
 ![Workout Log](https://github.com/noDojo/Box-Ready-Android/blob/master/res/drawable-hdpi/workout_log.png?raw=true)
