@@ -1,5 +1,8 @@
 # Box Ready
 
+![Movement Grid](https://github.com/noDojo/Box-Ready-Android/blob/master/res/drawable-hdpi/movement_grid.png?raw=true)
+![Workout Log](https://github.com/noDojo/Box-Ready-Android/blob/master/res/drawable-hdpi/workout_log.png?raw=true)
+
 ## Description
 
 Are you interested in extreme training but unsure if your body is ready? If you answered yes, then Box Ready is for you!
